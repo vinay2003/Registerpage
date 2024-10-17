@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
+      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Login Form -->
+    <div class="container">
+        <div class="shape"></div>
+        <div class="shape2"></div>
+      <div class="form-box Login">
+        <h2 class="animation" style="--D:0; --S:20">Login</h2>
+        <form action="">
+          <div class="input-box animation" style="--D:1; --S:21">
+            <box-icon name="user" type="solid"></box-icon>
+            <input type="text" aria-label="Username" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box animation" style="--D:2; --S:22">
+            <box-icon name="lock-alt" type="solid"></box-icon>
+            <input type="password" aria-label="Password" required />
+            <label>Password</label>
+          </div>
+          <div class="link animation" style="--D:3; --S:23">
+            <a href="#" class="ForgotLink">Forgot password?</a>
+            <a href="#" class="CreateLink">Create account</a>
+          </div>
+          <div class="input-box animation" style="--D:4; --S:24">
+            <button class="btn" type="submit">Login</button>
+          </div>
+          <div class="regi-link animation" style="--D:5; --S:25">
+            <p>
+              Don't have an account? <a href="#" class="SignUpLink">Sign Up</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="info-content Login">
+        <h2 class="animation" style="--D:0; --S:20">WELCOME BACK!</h2>
+        <p class="animation" style="--D:1; --S:21">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <!-- Sign Up Box -->
+      <div class="form-box Register">
+        <h2 class="animation" style="--li:17; --S:0;">Sign Up</h2>
+        <form action="#" method="">
+          <div class="input-box animation" style="--li:18; --S:1;">
+            <box-icon name="user" type="solid"></box-icon>
+            <input type="text" aria-label="Full Name" required />
+            <label>Full Name</label>
+          </div>
+          <div class="input-box animation" style="--li:19; --S:2;">
+            <box-icon name="envelope" type="solid"></box-icon>
+            <input type="email" aria-label="Email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box animation" style="--li:20; --S:3;">
+            <box-icon name="phone" type="solid"></box-icon>
+            <input type="tel" aria-label="Phone" required />
+            <label>Phone</label>
+          </div>
+          <div class="input-box animation" style="--li:21; --S:4;">
+            <box-icon name="lock-alt" type="solid"></box-icon>
+            <input type="password" aria-label="Password" required />
+            <label>Password</label>
+          </div>
+          <div class="input-box animation" style="--li:22; --S:5;">
+            <box-icon name="lock-alt" type="solid"></box-icon>
+            <input type="password" aria-label="Confirm Password" required />
+            <label>Confirm Password</label>
+          </div>
+          <div class="input-box animation" style="--li:23; --S:6;">
+            <button class="btn" type="submit">Sign Up</button>
+          </div>
+          <div class="regi animation" style="--li:24; --S:7;">
+            <p>
+              Already have an account? <a href="#" class="SignInLink">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="info-content Register">
+        <h2 class="animation" style="--li:17; --S:0;">WELCOME BACK!</h2>
+        <p class="animation" style="--li:18; --S:1;">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
